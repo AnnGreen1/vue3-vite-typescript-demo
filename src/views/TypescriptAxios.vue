@@ -1,6 +1,8 @@
 <template>
     <div>
-        index.vue
+        <div class="common-style">
+            TypescriptAxios.vue
+        </div>
     </div>
 </template>
 

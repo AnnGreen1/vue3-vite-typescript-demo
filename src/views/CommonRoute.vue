@@ -1,6 +1,8 @@
 <template>
     <div>
-        CommonRoute.vue
+        <div class="common-style">
+            CommonRoute.vue
+        </div>
     </div>
 </template>
 
