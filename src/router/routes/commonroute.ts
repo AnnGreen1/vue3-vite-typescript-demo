@@ -7,6 +7,11 @@ const commonRoute: RouteRecordRaw[] = [
     name: "commonroute",
     component: () => import("../../views/CommonRoute.vue")
   },
+  {
+    path: "/elementplusdemo",
+    name: "elementplusdemo",
+    component: () => import("../../views/ElementplusDemo.vue")
+  },
 ];
 
 export default commonRoute;
