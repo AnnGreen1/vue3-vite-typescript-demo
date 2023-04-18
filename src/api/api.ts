@@ -2,7 +2,7 @@ import request from "../utils/http"
 // import { Request, Response } from "@/model/api";
 import {randqinghuaRequest,randqinghuaResponse } from "../model/commonapi"
 /**
- * 随机土味情话
+ * @name 随机土味情话
  * @param data 
  * @returns 
  */
