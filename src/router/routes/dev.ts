@@ -12,6 +12,16 @@ const dev: RouteRecordRaw[] = [
     name: "dev-SelfComponent",
     component: () => import("../../views/Dev/SelfComponent.vue")
   },
+  {
+    path: "/dev/Proxy",
+    name: "dev-Proxy",
+    component: () => import("../../views/Dev/Proxy.vue")
+  },
+  {
+    path: "/dev/ComputedParam",
+    name: "dev-ComputedParam",
+    component: () => import("../../views/Dev/ComputedParam.vue")
+  },
 ];
 
 export default dev;

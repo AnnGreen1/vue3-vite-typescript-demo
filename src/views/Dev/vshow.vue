@@ -13,7 +13,7 @@
 <script lang="ts" setup>
 import { reactive, ref, onMounted } from "vue";
 
-const show = ref(true)
+const show = ref<boolean>(true)
 
 
 </script>
