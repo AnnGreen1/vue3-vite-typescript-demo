@@ -4,7 +4,7 @@ const basicRoute: RouteRecordRaw[] = [
   {
     path: "/BasicIndex",
     name: "BasicIndex",
-    component: () => import("../../../views/Basic/BasicIndex.vue")
+    component: () => import("@/views/Basic/BasicIndex.vue")
   }
 ];
 

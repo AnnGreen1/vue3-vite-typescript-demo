@@ -4,7 +4,7 @@ const devRoute: RouteRecordRaw[] = [
   {
     path: "/DevIndex",
     name: "DevIndex",
-    component: () => import("../../../views/Dev/DevIndex.vue")
+    component: () => import("@/views/Dev/DevIndex.vue")
   }
 ];
 

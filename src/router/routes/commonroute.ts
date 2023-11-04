@@ -5,12 +5,12 @@ const commonRoute: RouteRecordRaw[] = [
   {
     path: "/commonroute",
     name: "commonroute",
-    component: () => import("../../views/CommonRoute.vue")
+    component: () => import("@/views/CommonRoute.vue")
   },
   {
     path: "/elementplusdemo",
     name: "elementplusdemo",
-    component: () => import("../../views/ElementplusDemo.vue")
+    component: () => import("@/views/ElementplusDemo.vue")
   },
 ];
 

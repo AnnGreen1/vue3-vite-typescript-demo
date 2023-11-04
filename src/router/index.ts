@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory,createWebHashHistory, RouteRecordRaw } from "vue-router";
 
-import commonRoute from "./routes/commonroute";
-import typescriptaxios from "./routes/typescriptaxios";
+import commonRoute from "@/router/routes/commonroute";
+import typescriptaxios from "@/router/routes/typescriptaxios";
 
-import basicRoute from "./routes/Basic/index";
-import dataRoute from "./routes/Data/index";
-import feedbackRoute from "./routes/Feedback/index";
-import formRoute from "./routes/Form/index";
-import navigationRoute from "./routes/Navigation/index";
+import basicRoute from "@/router/routes/Basic/index";
+import dataRoute from "@/router/routes/Data/index";
+import feedbackRoute from "@/router/routes/Feedback/index";
+import formRoute from "@/router/routes/Form/index";
+import navigationRoute from "@/router/routes/Navigation/index";
 
 
 const router = createRouter({

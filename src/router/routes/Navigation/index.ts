@@ -4,7 +4,7 @@ const navigationRoute: RouteRecordRaw[] = [
   {
     path: "/NavigationIndex",
     name: "NavigationIndex",
-    component: () => import("../../../views/Navigation/NavigationIndex.vue")
+    component: () => import("@/views/Navigation/NavigationIndex.vue")
   }
 ];
 

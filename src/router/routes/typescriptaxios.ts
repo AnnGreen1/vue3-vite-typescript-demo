@@ -5,7 +5,7 @@ const typescriptaxios: RouteRecordRaw[] = [
   {
     path: "/typescriptaxios",
     name: "typescriptaxios",
-    component: () => import("../../views/TypescriptAxios.vue")
+    component: () => import("@/views/TypescriptAxios.vue")
   },
 ];
 

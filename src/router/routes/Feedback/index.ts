@@ -4,7 +4,7 @@ const feedbackRoute: RouteRecordRaw[] = [
   {
     path: "/FeedbackIndex",
     name: "FeedbackIndex",
-    component: () => import("../../../views/Feedback/FeedbackIndex.vue")
+    component: () => import("@/views/Feedback/FeedbackIndex.vue")
   }
 ];
 
