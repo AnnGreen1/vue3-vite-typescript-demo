@@ -1,11 +1,11 @@
 import { RouteRecordRaw } from "vue-router";
 
-const devRoute: RouteRecordRaw[] = [
+const Dev: RouteRecordRaw[] = [
   {
-    path: "/DevIndex",
-    name: "DevIndex",
+    path: "/Dev",
+    name: "Dev",
     component: () => import("@/views/Dev/DevIndex.vue")
   }
 ];
 
-export default devRoute;
+export default Dev;

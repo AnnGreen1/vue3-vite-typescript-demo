@@ -1,11 +1,11 @@
 import { RouteRecordRaw } from "vue-router";
 
-const navigationRoute: RouteRecordRaw[] = [
+const Navigation: RouteRecordRaw[] = [
   {
-    path: "/NavigationIndex",
-    name: "NavigationIndex",
+    path: "/Navigation",
+    name: "Navigation",
     component: () => import("@/views/Navigation/NavigationIndex.vue")
   }
 ];
 
-export default navigationRoute;
+export default Navigation;

@@ -1,11 +1,13 @@
 import { RouteRecordRaw } from "vue-router";
 
-const basicRoute: RouteRecordRaw[] = [
+import Button from "@/router/routes/Basic/Button"
+const Basic: RouteRecordRaw[] = [
   {
-    path: "/BasicIndex",
-    name: "BasicIndex",
+    path: "/",
+    name: "Basic",
     component: () => import("@/views/Basic/BasicIndex.vue")
-  }
+  },
+  ...Button
 ];
 
-export default basicRoute;
+export default Basic;

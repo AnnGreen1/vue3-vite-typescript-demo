@@ -1,11 +1,11 @@
 import { RouteRecordRaw } from "vue-router";
 
-const dataRoute: RouteRecordRaw[] = [
+const Data: RouteRecordRaw[] = [
   {
-    path: "/DataIndex",
-    name: "DataIndex",
+    path: "/Data",
+    name: "Data",
     component: () => import("@/views/Data/DataIndex.vue")
   }
 ];
 
-export default dataRoute;
+export default Data;

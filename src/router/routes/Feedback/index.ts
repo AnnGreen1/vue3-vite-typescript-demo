@@ -1,11 +1,11 @@
 import { RouteRecordRaw } from "vue-router";
 
-const feedbackRoute: RouteRecordRaw[] = [
+const Feedback: RouteRecordRaw[] = [
   {
-    path: "/FeedbackIndex",
-    name: "FeedbackIndex",
+    path: "/Feedback",
+    name: "Feedback",
     component: () => import("@/views/Feedback/FeedbackIndex.vue")
   }
 ];
 
-export default feedbackRoute;
+export default Feedback;

@@ -1,6 +1,6 @@
 import { RouteRecordRaw } from "vue-router";
 
-const Form: RouteRecordRaw[] = [
+const Input: RouteRecordRaw[] = [
   {
     path: "/Form",
     name: "Form",
@@ -8,4 +8,4 @@ const Form: RouteRecordRaw[] = [
   }
 ];
 
-export default Form;
+export default Input;
