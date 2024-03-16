@@ -22,6 +22,11 @@ const dev: RouteRecordRaw[] = [
     name: "dev-ComputedParam",
     component: () => import("../../views/Dev/ComputedParam.vue")
   },
+  {
+    path: "/dev/CanvasCarmera",
+    name: "dev-CanvasCarmera",
+    component: () => import("../../views/Dev/CanvasCarmera.vue")
+  },
 ];
 
 export default dev;
