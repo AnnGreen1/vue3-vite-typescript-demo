@@ -27,6 +27,11 @@ const dev: RouteRecordRaw[] = [
     name: "dev-CanvasCarmera",
     component: () => import("../../views/Dev/CanvasCarmera.vue")
   },
+  {
+    path: "/dev/UserMedia",
+    name: "dev-UserMedia",
+    component: () => import("../../views/Dev/UserMedia.vue")
+  },
 ];
 
 export default dev;
