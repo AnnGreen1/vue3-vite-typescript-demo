@@ -5,32 +5,37 @@ const dev: RouteRecordRaw[] = [
   {
     path: "/dev/vshow",
     name: "dev-vshow",
-    component: () => import("../../views/Dev/vshow.vue")
+    component: () => import("../../views/Dev/vshow.vue"),
   },
   {
     path: "/dev/SelfComponent",
     name: "dev-SelfComponent",
-    component: () => import("../../views/Dev/SelfComponent.vue")
+    component: () => import("../../views/Dev/SelfComponent.vue"),
   },
   {
     path: "/dev/Proxy",
     name: "dev-Proxy",
-    component: () => import("../../views/Dev/Proxy.vue")
+    component: () => import("../../views/Dev/Proxy.vue"),
   },
   {
     path: "/dev/ComputedParam",
     name: "dev-ComputedParam",
-    component: () => import("../../views/Dev/ComputedParam.vue")
+    component: () => import("../../views/Dev/ComputedParam.vue"),
   },
   {
     path: "/dev/CanvasCarmera",
     name: "dev-CanvasCarmera",
-    component: () => import("../../views/Dev/CanvasCarmera.vue")
+    component: () => import("../../views/Dev/CanvasCarmera.vue"),
   },
   {
     path: "/dev/UserMedia",
     name: "dev-UserMedia",
-    component: () => import("../../views/Dev/UserMedia.vue")
+    component: () => import("../../views/Dev/UserMedia.vue"),
+  },
+  {
+    path: "/dev/html2pdf",
+    name: "dev-html2pdf",
+    component: () => import("../../views/Dev/html2pdf/Index.vue"),
   },
 ];
 
