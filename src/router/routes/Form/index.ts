@@ -4,7 +4,7 @@ const Form: RouteRecordRaw[] = [
   {
     path: "/Form",
     name: "Form",
-    component: () => import("@/views/Form/FormIndex.vue")
+    component: () => import("@/views/Form/Index.vue")
   }
 ];
 
