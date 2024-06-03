@@ -14,6 +14,11 @@ const Dev: RouteRecordRaw[] = [
     name: "dev-UseElementCSS",
     component: () => import("@/views/Dev/UseElementCSS.vue"),
   },
+  {
+    path: "/dev/WatchForm",
+    name: "dev-WatchForm",
+    component: () => import("@/views/Dev/WatchForm.vue"),
+  },
 ];
 
 export default Dev;
