@@ -37,6 +37,36 @@ const dev: RouteRecordRaw[] = [
     name: "dev-html2pdf",
     component: () => import("../../views/Dev/html2pdf/Index.vue"),
   },
+  {
+    path: "/dev/RecordRTC",
+    name: "dev-RecordRTC",
+    component: () => import("../../views/Dev/RecordRTC/Index.vue"),
+  },
+  {
+    path: "/dev/audio",
+    name: "dev-audio",
+    component: () => import("../../views/Dev/RecordRTC/audio.vue"),
+  },
+  {
+    path: "/dev/RecordRTC/TakePhoto",
+    name: "dev-RecordRTC-TakePhoto",
+    component: () => import("../../views/Dev/RecordRTC/TakePhoto.vue"),
+  },
+  {
+    path: "/dev/RecordRTC/Test",
+    name: "dev-RecordRTC-test",
+    component: () => import("../../views/Dev/RecordRTC/Test.vue"),
+  },
+  {
+    path: "/dev/RecordRTC/TestView",
+    name: "dev-RecordRTC-TestView",
+    component: () => import("../../views/Dev/RecordRTC/TestView.vue"),
+  },
+  {
+    path: "/dev/RecordRTC/Video",
+    name: "dev-RecordRTC-Video",
+    component: () => import("../../views/Dev/RecordRTC/Video.vue"),
+  },
 ];
 
 export default dev;
