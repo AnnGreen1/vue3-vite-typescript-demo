@@ -9,6 +9,6 @@ export interface randqinghuaRequest {
  * 随机土味情话Response
  */
 export interface randqinghuaResponse {
-  code: number;
+  // code: number;
   content: string;
 }
